@@ -1,0 +1,14 @@
+int fibonacci(int n){
+	if(n == 1 || n == 2){
+		return 1;
+	}else{
+		return fibonacci(n-1) + fibonacci(n-2);
+	}
+}
+int main(){
+	int fibo;
+	print("\n");
+	fibo = 50;
+	print("Fibonnaci de ", fibo, " e ", fibonacci(fibo), "\n");
+	return 0;
+}

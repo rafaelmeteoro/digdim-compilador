@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Debug" />
+	<File name="RIVisitor.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="4174" topLine="0" />
+	</File>
+	<File name="RIVisitor.h" open="0" top="0" tabpos="6">
+		<Cursor position="3289" topLine="0" />
+	</File>
+	<File name="asa.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="10364" topLine="402" />
+	</File>
+	<File name="asa.h" open="0" top="0" tabpos="3">
+		<Cursor position="9158" topLine="322" />
+	</File>
+	<File name="buffer.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="buffer.h" open="0" top="0" tabpos="6">
+		<Cursor position="155" topLine="0" />
+	</File>
+	<File name="canonizador.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="canonizador.h" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="classesasa.h" open="0" top="0" tabpos="16">
+		<Cursor position="43" topLine="0" />
+	</File>
+	<File name="erro.cpp" open="0" top="0" tabpos="4">
+		<Cursor position="3635" topLine="57" />
+	</File>
+	<File name="erro.h" open="0" top="0" tabpos="3">
+		<Cursor position="31" topLine="17" />
+	</File>
+	<File name="instrucaoMIPS.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="instrucaoMIPS.h" open="0" top="0" tabpos="2">
+		<Cursor position="4830" topLine="9" />
+	</File>
+	<File name="instrucaoVisitor.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="instrucaoVisitor.h" open="0" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="lexico.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="17204" topLine="410" />
+	</File>
+	<File name="lexico.h" open="0" top="0" tabpos="8">
+		<Cursor position="1235" topLine="42" />
+	</File>
+	<File name="main.cpp" open="0" top="0" tabpos="0">
+		<Cursor position="576" topLine="15" />
+	</File>
+	<File name="parser.cpp" open="0" top="0" tabpos="2">
+		<Cursor position="217" topLine="0" />
+	</File>
+	<File name="parser.h" open="0" top="0" tabpos="7">
+		<Cursor position="35" topLine="0" />
+	</File>
+	<File name="programafinal.cmm" open="1" top="1" tabpos="2">
+		<Cursor position="1219" topLine="78" />
+	</File>
+	<File name="representacaoIntermediaria.cpp" open="0" top="0" tabpos="5">
+		<Cursor position="13754" topLine="602" />
+	</File>
+	<File name="representacaoIntermediaria.h" open="0" top="0" tabpos="9">
+		<Cursor position="3013" topLine="224" />
+	</File>
+	<File name="simbolos.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="39" topLine="0" />
+	</File>
+	<File name="simbolos.h" open="0" top="0" tabpos="9">
+		<Cursor position="39" topLine="0" />
+	</File>
+	<File name="tabelaSemantico.cpp" open="0" top="0" tabpos="9">
+		<Cursor position="68" topLine="0" />
+	</File>
+	<File name="tabelaSemantico.h" open="0" top="0" tabpos="7">
+		<Cursor position="143" topLine="0" />
+	</File>
+	<File name="teste.cmm" open="1" top="0" tabpos="1">
+		<Cursor position="110" topLine="0" />
+	</File>
+	<File name="testeSemantico.cmm" open="0" top="0" tabpos="12">
+		<Cursor position="137" topLine="0" />
+	</File>
+	<File name="visitor.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="438" topLine="25" />
+	</File>
+	<File name="visitor.h" open="0" top="0" tabpos="11">
+		<Cursor position="37" topLine="0" />
+	</File>
+	<File name="visitorMIPS.cpp" open="0" top="0" tabpos="8">
+		<Cursor position="5185" topLine="135" />
+	</File>
+	<File name="visitorMIPS.h" open="0" top="0" tabpos="3">
+		<Cursor position="0" topLine="19" />
+	</File>
+	<File name="visitorRepIntermediaria.cpp" open="0" top="0" tabpos="3">
+		<Cursor position="10197" topLine="251" />
+	</File>
+	<File name="visitorRepIntermediaria.h" open="0" top="0" tabpos="6">
+		<Cursor position="1655" topLine="0" />
+	</File>
+	<File name="visitorSemantico.cpp" open="0" top="0" tabpos="7">
+		<Cursor position="12081" topLine="334" />
+	</File>
+	<File name="visitorSemantico.h" open="0" top="0" tabpos="2">
+		<Cursor position="55" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>

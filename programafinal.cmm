@@ -1,0 +1,101 @@
+//teste
+int a[1000];
+int b[1000];
+int i;
+
+int abs(int k){
+	if(k < 0) return -k;
+	else return k;
+}
+
+int resto(int g, int h){
+	int d, r;
+	int bb;
+
+	if(h == 0) return 9999999;
+
+	r  = abs(g);
+	bb = abs(h);
+	d = 0;
+
+	while(r >= bb){
+		r = r - bb;
+		d = d + 1;
+	}
+
+	if(g < 0 && h >= 0 || g >= 0 && h < 0) r = -r;
+	return r;
+}
+
+int calculaarranjo(int v[], int n){
+	int i, Xn;
+	print("\n");
+	Xn = 593;
+	i = 0;
+	while(i < n){
+		Xn = resto(2 * Xn + 1, 1009);
+		v[i] = Xn;
+		i = i + 1;
+	}
+	return 0;
+}
+
+int partition(int v[1000], int p, int r){
+	int i, j, c, t;
+	print("\n");
+	c = v[p];
+	i = p + 1;
+	j = r;
+
+	while(i < j){
+		while(i <= r && v[i] <= c) i = i + 1;
+		while(j > p  && v[j] >= c) j = j - 1;
+
+		if(i < j){
+			t = v[i];
+			v[i] = v[j];
+			v[j] = t;
+		}
+	}
+
+	t = v[p];
+	v[p] = v[j];
+	v[j] = t;
+
+	return j;
+}
+
+int quicksort(int v[1000], int m, int n){
+	int i;
+	if(n > m){
+		i = partition(v, m, n);
+		quicksort(v, m, i - 1);
+		quicksort(v, i + 1, n);
+	}
+	return 0;
+}
+
+int main(){
+	print("\n");
+
+	calculaarranjo(a, 1000);
+	print("\n");
+
+	i = 0;
+	while(i < 1000){
+		b[i] = a[i];
+		i = i + 1;
+	}
+
+	quicksort(b, 0, 999);
+	print("\n");
+
+	i = 0;
+	while(i < 1000){
+		print("Posicao: ", i + 1, " a = ", a[i], " b = ", b[i],  "\n");
+		i = i + 1;
+	}
+
+	print("\n\n\nA chave e: ", b[73]);
+	return 0;
+}

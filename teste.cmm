@@ -1,0 +1,9 @@
+int a[1000];
+
+int main(){
+    a[1] = 0;
+    a[2] = 20;
+
+    print("Soma: ", a[1] + a[2]);
+    return 0;
+}

@@ -1,0 +1,51 @@
+//teste
+int a[100];
+
+int selectSort(int num[], int tam){
+	int i, j, min, swap;
+	print("");
+
+	i = 0;
+	while(i < tam-1){
+		min = i;
+		j = i + 1;
+		while(j < tam){
+			if(num[j] < num[min]){
+				min = j;
+			}
+			j = j + 1;
+		}
+
+		if(i != min){
+			swap = num[i];
+			num[i] = num[min];
+			num[min] = swap;
+		}
+		i = i + 1;
+	}
+}
+
+int main(){
+	int i, j, tam;
+
+	print("");
+
+	tam = 100;
+	j = tam;
+	i = 0;
+	while(j > 0){
+		a[i] = j;
+		i = i + 1;
+		j = j - 1;
+	}
+
+	selectSort(a, tam);
+
+	j = 0;
+	while(j < tam){
+		print("Posicao ", j, " v = ", a[j], "\n");
+		j = j + 1;
+	}
+	return 0;
+}
+
